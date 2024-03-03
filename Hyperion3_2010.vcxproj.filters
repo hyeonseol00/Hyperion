@@ -1,0 +1,352 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns:atg="http://atg.xbox.com" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{8e114980-c1a3-4ada-ad7c-83caadf5daeb}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe</Extensions>
+    </Filter>
+    <Filter Include="DXUT">
+      <UniqueIdentifier>{a43c5c25-0e86-4a20-b64a-883785ff74fd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shaders">
+      <UniqueIdentifier>{2c3d4c8c-5d1a-459a-a05a-a4e4b608a44e}</UniqueIdentifier>
+      <Extensions>fx;fxh;hlsl</Extensions>
+    </Filter>
+    <Filter Include="GaApplication">
+      <UniqueIdentifier>{69481166-3270-41b8-8c4b-4ffb2ca7a76c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ObjectManager">
+      <UniqueIdentifier>{8f2daef1-b9d5-438c-8f80-6ae53251b682}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FontManager">
+      <UniqueIdentifier>{bf680606-bfbc-430f-8d67-c0b0dfe88fcf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ObjectManager\Object">
+      <UniqueIdentifier>{7c2008e8-a3ff-40c4-897a-20046b8e15d5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ObjectManager\Object\Intro">
+      <UniqueIdentifier>{3994faa7-844f-4786-b4ce-b7171ddd7dd9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ObjectManager\Object\Menu">
+      <UniqueIdentifier>{589c929e-4a01-4c40-b4ba-3723305624ba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ObjectManager\Object\BackGround">
+      <UniqueIdentifier>{7407a5e5-5753-4f88-8e06-22b2ca08f6e9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ObjectManager\Object\Player">
+      <UniqueIdentifier>{e91b9b5f-d138-4011-8d7f-a1e4aee90733}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ObjectManager\Object\Player\PlayerBullet">
+      <UniqueIdentifier>{d5bd6e58-188c-4840-92fa-3cd3a122e7b5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ObjectManager\Object\Enemy">
+      <UniqueIdentifier>{18df0577-edba-495a-bb67-073faaf8ecbf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ObjectManager\Object\Enemy\Enemy1">
+      <UniqueIdentifier>{c4a78e64-edb0-4c34-928e-f69915101783}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ObjectManager\Object\UserInterface">
+      <UniqueIdentifier>{a31eb978-6346-4f4f-a720-cfc020ccc6c2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ObjectManager\Object\Item">
+      <UniqueIdentifier>{6cbab17b-5a8a-4b93-8025-db374bcc6061}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ObjectManager\Object\Player\Addon">
+      <UniqueIdentifier>{7de9287b-410d-419f-8802-a761d4b7bcd5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ObjectManager\Object\Enemy\Enemy2">
+      <UniqueIdentifier>{a11dc3c3-a3b3-467f-a22c-e70db86c58f2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ObjectManager\Object\Enemy\Enemy3">
+      <UniqueIdentifier>{3d700d19-44b2-4486-ab21-c955e88e5392}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ObjectManager\Object\Enemy\Enemy4">
+      <UniqueIdentifier>{fbb77921-9044-43bf-88ca-46cbc2dd0676}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ObjectManager\Object\Enemy\Enemy2\Enemy2Bullet">
+      <UniqueIdentifier>{d92f1bd7-be51-4ffe-bc0b-ac29ec58589d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ObjectManager\Object\Enemy\Enemy4\Enemy4Division">
+      <UniqueIdentifier>{f2abf7c4-11bf-4ba9-bd3c-4caa98304bc4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ObjectManager\Object\Obstacle">
+      <UniqueIdentifier>{475c390d-2f21-44fb-8a33-db6f765b9bf3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ObjectManager\Object\Enemy\Boss1">
+      <UniqueIdentifier>{0e97c2bb-b804-48ff-aec2-4fc8e2941b65}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ObjectManager\Object\Enemy\Boss1\Boss1Bullet">
+      <UniqueIdentifier>{0396d437-1137-4b6c-93dd-3effbaa5ea75}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ObjectManager\Object\Enemy\Boss2">
+      <UniqueIdentifier>{6fdd86d1-a457-43f1-b380-543198f42e7b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ObjectManager\Object\Enemy\Boss3">
+      <UniqueIdentifier>{77c87340-73ae-4dfa-be02-b73a1a53f10e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ObjectManager\Object\Enemy\Boss4">
+      <UniqueIdentifier>{07106760-37e4-4a6d-adea-9dbd2f28ffe1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ObjectManager\Object\Enemy\Boss2\Boss2Bullet">
+      <UniqueIdentifier>{32af287c-429a-4b9f-87e2-8bd78b4cc57b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ObjectManager\Object\Enemy\Boss3\Boss3Bullet">
+      <UniqueIdentifier>{01e586fa-4731-4a9a-a11f-38d0cd95a50c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ObjectManager\Object\Enemy\Boss4\Boss4Bullet">
+      <UniqueIdentifier>{bd0d63d4-6605-480f-a6c5-00cfe37d7f43}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SoundManager">
+      <UniqueIdentifier>{e5138252-ed23-4def-94a6-2fd8c1921898}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="DXUT\Optional\directx.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <ClInclude Include="DXUT\Core\DXUT.h">
+      <Filter>DXUT</Filter>
+    </ClInclude>
+    <ClInclude Include="DXUT\Core\DXUTenum.h">
+      <Filter>DXUT</Filter>
+    </ClInclude>
+    <ClInclude Include="DXUT\Core\DXUTmisc.h">
+      <Filter>DXUT</Filter>
+    </ClInclude>
+    <ClCompile Include="DXUT\Core\DXUT.cpp">
+      <Filter>DXUT</Filter>
+    </ClCompile>
+    <ClCompile Include="DXUT\Core\DXUTenum.cpp">
+      <Filter>DXUT</Filter>
+    </ClCompile>
+    <ClCompile Include="DXUT\Core\DXUTmisc.cpp">
+      <Filter>DXUT</Filter>
+    </ClCompile>
+    <ClInclude Include="DXUT\Optional\DXUTcamera.h">
+      <Filter>DXUT</Filter>
+    </ClInclude>
+    <ClInclude Include="DXUT\Optional\DXUTgui.h">
+      <Filter>DXUT</Filter>
+    </ClInclude>
+    <ClInclude Include="DXUT\Optional\DXUTres.h">
+      <Filter>DXUT</Filter>
+    </ClInclude>
+    <ClInclude Include="DXUT\Optional\DXUTsettingsdlg.h">
+      <Filter>DXUT</Filter>
+    </ClInclude>
+    <ClInclude Include="DXUT\Optional\SDKmesh.h">
+      <Filter>DXUT</Filter>
+    </ClInclude>
+    <ClInclude Include="DXUT\Optional\SDKmisc.h">
+      <Filter>DXUT</Filter>
+    </ClInclude>
+    <ClCompile Include="DXUT\Optional\DXUTcamera.cpp">
+      <Filter>DXUT</Filter>
+    </ClCompile>
+    <ClCompile Include="DXUT\Optional\DXUTgui.cpp">
+      <Filter>DXUT</Filter>
+    </ClCompile>
+    <ClCompile Include="DXUT\Optional\DXUTres.cpp">
+      <Filter>DXUT</Filter>
+    </ClCompile>
+    <ClCompile Include="DXUT\Optional\DXUTsettingsdlg.cpp">
+      <Filter>DXUT</Filter>
+    </ClCompile>
+    <ClCompile Include="DXUT\Optional\SDKmesh.cpp">
+      <Filter>DXUT</Filter>
+    </ClCompile>
+    <ClCompile Include="DXUT\Optional\SDKmisc.cpp">
+      <Filter>DXUT</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Hyperion3.cpp" />
+    <ClCompile Include="GaApplication.cpp">
+      <Filter>GaApplication</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjectManager.cpp">
+      <Filter>ObjectManager</Filter>
+    </ClCompile>
+    <ClCompile Include="FontManager.cpp">
+      <Filter>FontManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Intro.cpp">
+      <Filter>ObjectManager\Object\Intro</Filter>
+    </ClCompile>
+    <ClCompile Include="Menu.cpp">
+      <Filter>ObjectManager\Object\Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="BackGround.cpp">
+      <Filter>ObjectManager\Object\BackGround</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>ObjectManager\Object\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerBullet.cpp">
+      <Filter>ObjectManager\Object\Player\PlayerBullet</Filter>
+    </ClCompile>
+    <ClCompile Include="Enemy1.cpp">
+      <Filter>ObjectManager\Object\Enemy\Enemy1</Filter>
+    </ClCompile>
+    <ClCompile Include="UserInterface.cpp">
+      <Filter>ObjectManager\Object\UserInterface</Filter>
+    </ClCompile>
+    <ClCompile Include="Item.cpp">
+      <Filter>ObjectManager\Object\Item</Filter>
+    </ClCompile>
+    <ClCompile Include="Addon.cpp">
+      <Filter>ObjectManager\Object\Player\Addon</Filter>
+    </ClCompile>
+    <ClCompile Include="Enemy2.cpp">
+      <Filter>ObjectManager\Object\Enemy\Enemy2</Filter>
+    </ClCompile>
+    <ClCompile Include="Enemy3.cpp">
+      <Filter>ObjectManager\Object\Enemy\Enemy3</Filter>
+    </ClCompile>
+    <ClCompile Include="Enemy4.cpp">
+      <Filter>ObjectManager\Object\Enemy\Enemy4</Filter>
+    </ClCompile>
+    <ClCompile Include="Enemy2Bullet.cpp">
+      <Filter>ObjectManager\Object\Enemy\Enemy2\Enemy2Bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="Enemy4Division.cpp">
+      <Filter>ObjectManager\Object\Enemy\Enemy4\Enemy4Division</Filter>
+    </ClCompile>
+    <ClCompile Include="Obstacle.cpp">
+      <Filter>ObjectManager\Object\Obstacle</Filter>
+    </ClCompile>
+    <ClCompile Include="Boss1.cpp">
+      <Filter>ObjectManager\Object\Enemy\Boss1</Filter>
+    </ClCompile>
+    <ClCompile Include="Boss1Bullet.cpp">
+      <Filter>ObjectManager\Object\Enemy\Boss1\Boss1Bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="Boss2.cpp">
+      <Filter>ObjectManager\Object\Enemy\Boss2</Filter>
+    </ClCompile>
+    <ClCompile Include="Boss2Bullet.cpp">
+      <Filter>ObjectManager\Object\Enemy\Boss2\Boss2Bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="Boss3.cpp">
+      <Filter>ObjectManager\Object\Enemy\Boss3</Filter>
+    </ClCompile>
+    <ClCompile Include="Boss3Bullet.cpp">
+      <Filter>ObjectManager\Object\Enemy\Boss3\Boss3Bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="Boss4.cpp">
+      <Filter>ObjectManager\Object\Enemy\Boss4</Filter>
+    </ClCompile>
+    <ClCompile Include="Boss4Bullet.cpp">
+      <Filter>ObjectManager\Object\Enemy\Boss4\Boss4Bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="SoundManager.cpp">
+      <Filter>SoundManager</Filter>
+    </ClCompile>
+    <ClCompile Include="DXUT\Optional\SDKsound.cpp">
+      <Filter>DXUT</Filter>
+    </ClCompile>
+    <ClCompile Include="DXUT\Optional\SDKwavefile.cpp">
+      <Filter>DXUT</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="GaApplication.h">
+      <Filter>GaApplication</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjectManager.h">
+      <Filter>ObjectManager</Filter>
+    </ClInclude>
+    <ClInclude Include="FontManager.h">
+      <Filter>FontManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Intro.h">
+      <Filter>ObjectManager\Object\Intro</Filter>
+    </ClInclude>
+    <ClInclude Include="Menu.h">
+      <Filter>ObjectManager\Object\Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="BackGround.h">
+      <Filter>ObjectManager\Object\BackGround</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>ObjectManager\Object\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerBullet.h">
+      <Filter>ObjectManager\Object\Player\PlayerBullet</Filter>
+    </ClInclude>
+    <ClInclude Include="Enemy1.h">
+      <Filter>ObjectManager\Object\Enemy\Enemy1</Filter>
+    </ClInclude>
+    <ClInclude Include="UserInterface.h">
+      <Filter>ObjectManager\Object\UserInterface</Filter>
+    </ClInclude>
+    <ClInclude Include="Item.h">
+      <Filter>ObjectManager\Object\Item</Filter>
+    </ClInclude>
+    <ClInclude Include="Addon.h">
+      <Filter>ObjectManager\Object\Player\Addon</Filter>
+    </ClInclude>
+    <ClInclude Include="Enemy2.h">
+      <Filter>ObjectManager\Object\Enemy\Enemy2</Filter>
+    </ClInclude>
+    <ClInclude Include="Enemy3.h">
+      <Filter>ObjectManager\Object\Enemy\Enemy3</Filter>
+    </ClInclude>
+    <ClInclude Include="Enemy4.h">
+      <Filter>ObjectManager\Object\Enemy\Enemy4</Filter>
+    </ClInclude>
+    <ClInclude Include="Enemy2Bullet.h">
+      <Filter>ObjectManager\Object\Enemy\Enemy2\Enemy2Bullet</Filter>
+    </ClInclude>
+    <ClInclude Include="Enemy4Division.h">
+      <Filter>ObjectManager\Object\Enemy\Enemy4\Enemy4Division</Filter>
+    </ClInclude>
+    <ClInclude Include="Obstacle.h">
+      <Filter>ObjectManager\Object\Obstacle</Filter>
+    </ClInclude>
+    <ClInclude Include="Boss1.h">
+      <Filter>ObjectManager\Object\Enemy\Boss1</Filter>
+    </ClInclude>
+    <ClInclude Include="Boss1Bullet.h">
+      <Filter>ObjectManager\Object\Enemy\Boss1\Boss1Bullet</Filter>
+    </ClInclude>
+    <ClInclude Include="Boss2.h">
+      <Filter>ObjectManager\Object\Enemy\Boss2</Filter>
+    </ClInclude>
+    <ClInclude Include="Boss2Bullet.h">
+      <Filter>ObjectManager\Object\Enemy\Boss2\Boss2Bullet</Filter>
+    </ClInclude>
+    <ClInclude Include="Boss3.h">
+      <Filter>ObjectManager\Object\Enemy\Boss3</Filter>
+    </ClInclude>
+    <ClInclude Include="Boss3Bullet.h">
+      <Filter>ObjectManager\Object\Enemy\Boss3\Boss3Bullet</Filter>
+    </ClInclude>
+    <ClInclude Include="Boss4.h">
+      <Filter>ObjectManager\Object\Enemy\Boss4</Filter>
+    </ClInclude>
+    <ClInclude Include="Boss4Bullet.h">
+      <Filter>ObjectManager\Object\Enemy\Boss4\Boss4Bullet</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundManager.h">
+      <Filter>SoundManager</Filter>
+    </ClInclude>
+    <ClInclude Include="DXUT\Optional\SDKsound.h">
+      <Filter>DXUT</Filter>
+    </ClInclude>
+    <ClInclude Include="DXUT\Optional\SDKwavefile.h">
+      <Filter>DXUT</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CLInclude Include="resource.h">
+      <Filter>Resource Files</Filter>
+    </CLInclude>
+    <ResourceCompile Include="Hyperion3.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>
